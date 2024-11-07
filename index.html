@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Батара | Личный бренд</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <h1>Батара</h1>
+            <p>Эксперт в [твоей области]</p>
+            <a href="#about" class="btn-main">Узнать больше</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Описание твоего опыта, профессиональных навыков и достижений.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Мои услуги</h2>
+            <div class="service-card">
+                <h3>Услуга 1</h3>
+                <p>Описание первой услуги.</p>
+            </div>
+            <div class="service-card">
+                <h3>Услуга 2</h3>
+                <p>Описание второй услуги.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Проект 1">
+                    <p>Описание проекта 1</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Проект 2">
+                    <p>Описание проекта 2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form action="send_message.php" method="POST">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш Email" required>
+                <textarea name="message" placeholder="Сообщение" required></textarea>
+                <button type="submit" class="btn-main">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Батара. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
